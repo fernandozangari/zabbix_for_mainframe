@@ -6,22 +6,22 @@ Among the tools available today and that have proven their usability on the Main
 
 ## Distributed side
 
-  - Zabbix: is an open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services [https://www.zabbix.com]
+  - **Zabbix:** is an open-source software tool to monitor IT infrastructure such as networks, servers, virtual machines, and cloud services [https://www.zabbix.com]
 
-  - Prometheus: is an open-source systems monitoring and alerting toolkit [https://prometheus.io/]
+  - **Prometheus:** is an open-source systems monitoring and alerting toolkit [https://prometheus.io/]
 
-  - Grafana:  is a multi-platform open source analytics and interactive visualization web application. It can produce charts, graphs, and alerts for the web when connected to supported data 
+  - **Grafana:**  is a multi-platform open source analytics and interactive visualization web application. It can produce charts, graphs, and alerts for the web when connected to supported data 
     sources [https://grafana.com/]
 
-  - Zebra: XML2JSON adapter for RMF DDS portal [https://github.com/zowe/zebra] 
+  - **Zebra:** XML2JSON adapter for RMF DDS portal [https://github.com/zowe/zebra] 
 
 ## Mainframe side
 
 RMF (Resource Measurement Facility):
 
-  - Monitor III: gives you a single point of control for monitoring resource usage within a sysplex
+  - **Monitor III:** gives you a single point of control for monitoring resource usage within a sysplex
 
-  - DDS portal: offers an HTTP API which can access short-term data from the Monitor III as well as long-term data from the Postprocessor. An application program can send an HTTP request for selected performance data to the DDS.
+  - **DDS portal:** offers an HTTP API which can access short-term data from the Monitor III as well as long-term data from the Postprocessor. An application program can send an HTTP request for selected performance data to the DDS.
 
  
 # Actual situation
