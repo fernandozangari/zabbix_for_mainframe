@@ -52,8 +52,8 @@ The Zabbix reference model stablish in a way that it is very simple to add new s
 2) install and run Zabbix main components (server and web)
 3) import in Zabbix **Data Collection - Templates** the file https://github.com/fernandozangari/zabbix_for_mainframe/blob/main/SRC/zbx_import_templates_v03.json
 4) configure the LPARs you want to include in zabbix in the file https://github.com/fernandozangari/zabbix_for_mainframe/blob/main/SRC/zbx_export_hosts.json
-   (in this instance the critical value is the LPAR name and zebra_ip:port)
-6) import the file zbx_export_hosts.json in zabbix **Data Collection - Hosts**
+   (in this instance the critical values are the LPAR name and zebra_ip:port)
+6) import the file **zbx_export_hosts.json** in zabbix **Data Collection - Hosts**
  
 # Next evolution steps:
 
