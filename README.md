@@ -27,6 +27,8 @@ RMF (Resource Measurement Facility):
 # Actual situation
 Zebra collects the RMF III information in real time through DDS portal and write it in Prometheus (TSDB), MongoDB (optional) and/or may be accesses directly. Then Grafana do the magic presenting the information in different attractive ways with the capacity to stablish alarms and alerts and taking the traditional operational Mainframe environment to the observability world.
 
+<IMG SRC = "https://github.com/fernandozangari/zabbix_for_mainframe/upload/main/reduced_actual_situation.png"> </IMG>
+
 You have detailed information outside Mainframe, with the history you want (detailed: 3 months) and with the capacity to build a federated TSDB schema, where the aggregated information is stored in another DB (TSDB) for long term (aggregated: p.e 25 months) for capacity purpose.
 For Mainframe people: the best defined WLM (appropriated report classes, transactions, etc.), provides more rich information you can process and present in real time.
  
