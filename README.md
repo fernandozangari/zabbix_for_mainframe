@@ -48,7 +48,7 @@ The Zabbix reference model stablish in a way that it is very simple to add new s
  
 # Install and configure the solution (all may run under containers)
 
-1) install and run Zebra (very well descripted in https://github.com/zowe/zebra); configure it not to use prometheus and mongodb (only as a XML to JSON transalator)
+1) install and run Zebra (very well descripted in https://github.com/zowe/zebra); configure it not to use prometheus and mongodb (only as a XML to JSON transalator). Detailed configuration of both sides post configuration can be find here https://github.com/fernandozangari/zabbix_for_mainframe/blob/main/SRC/ZEBRA-Requirements_eng_v2.docx
 2) install and run Zabbix main components (server and web)
 3) import in Zabbix **Data Collection - Templates** the file https://github.com/fernandozangari/zabbix_for_mainframe/blob/main/SRC/zbx_import_templates_v03.json
 4) configure the LPARs you want to include in zabbix in the file https://github.com/fernandozangari/zabbix_for_mainframe/blob/main/SRC/zbx_export_hosts.json
