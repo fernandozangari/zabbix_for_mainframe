@@ -27,7 +27,7 @@ RMF (Resource Measurement Facility):
 # Actual situation
 Zebra collects the RMF III information in real time through DDS portal and write it in Prometheus (TSDB), MongoDB (optional) and/or may be accesses directly. Then Grafana do the magic presenting the information in different attractive ways with the capacity to stablish alarms and alerts and taking the traditional operational Mainframe environment to the observability world.
 
-<IMG SRC = "https://github.com/fernandozangari/zabbix_for_mainframe/blob/main/reduced_actual_situation.png"> </IMG>
+<IMG SRC = "https://github.com/fernandozangari/zabbix_for_mainframe/blob/main/SRC/reduced_actual_situation.png"> </IMG>
 
 You have detailed information outside Mainframe, with the history you want (detailed: 3 months) and with the capacity to build a federated TSDB schema, where the aggregated information is stored in another DB (TSDB) for long term (aggregated: p.e 25 months) for capacity purpose.
 For Mainframe people: the best defined WLM (appropriated report classes, transactions, etc.), provides more rich information you can process and present in real time.
@@ -37,14 +37,14 @@ For Mainframe people: the best defined WLM (appropriated report classes, transac
 
 With a similar reference model, but using Zabbix as a second collector, the complete Zabbix functionality is added to the monitoring of Mainframe platform 
 
-<IMG SRC = "https://github.com/fernandozangari/zabbix_for_mainframe/blob/main/solution_with_zabbix.png"> </IMG>
+<IMG SRC = "https://github.com/fernandozangari/zabbix_for_mainframe/blob/main/SRC/solution_with_zabbix.png"> </IMG>
  
 In this stage we are now collecting the full information of 10 RMF tables.
 
 The Zabbix reference model stablish in a way that it is very simple to add new servers (LPARs) is:
 
 
-<IMG SRC = "https://github.com/fernandozangari/zabbix_for_mainframe/blob/main/zabbix_design.png"> </IMG>
+<IMG SRC = "https://github.com/fernandozangari/zabbix_for_mainframe/blob/main/SRC/zabbix_design.png"> </IMG>
  
 
  
