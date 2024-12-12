@@ -46,9 +46,15 @@ The Zabbix reference model stablish in a way that it is very simple to add new s
 
 <IMG SRC = "https://github.com/fernandozangari/zabbix_for_mainframe/blob/main/SRC/zabbix_design.png"> </IMG>
  
+# Install and configure the solution
 
+1) install and run Zebra (very well descripted in https://github.com/zowe/zebra)
+2) install and run Zabbix main components (server and web)
+3) import in Zabbix Data Collection - Templates the file zbx_import_templates_v03.json
+4) configure the LPARs you want to include in zabbix in the file zbx_export_hosts.json (in this instance the critical value is the LPAR name and zebra_ip:port)
+5) import the file zbx_export_hosts.json in zabbix Data Collection - Hosts
  
-# Next steps:
+# Next evolution steps:
 
 •	Convert the full RMF III tables (37 tables with ~ 800 metrics) (https://www.ibm.com/docs/en/zos/2.4.0?topic=midrt-monitor-iii-data-reporter-tables) to a Zabbix Mainframe template (now are 10 tables)
 
